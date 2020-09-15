@@ -13,4 +13,35 @@
   merges:
     - ocb $ODOO_VERSION
     # Example of a merge of the PR with the number <PR>
-    # - oca refs/pull/<PR>/head
+# the code private to OMS should go to odoo/custom/src/private in this repo,
+# this simplifies updates. Here we name external repos er want to use
+mis-builder:
+  remotes:
+    origin: https://github.com/OCA/mis-builder.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
+reporting-engine:
+  remotes:
+    origin: https://github.com/OCA/reporting-engine.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
+server-tools:
+  remotes:
+    origin: https://github.com/OCA/server-tools.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
+server-ux:
+  remotes:
+    origin: https://github.com/OCA/server-ux.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
+web:
+  remotes:
+    origin: https://github.com/OCA/web.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION

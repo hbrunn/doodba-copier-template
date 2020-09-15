@@ -1,0 +1,10 @@
+mis-builder:
+  - "*"
+reporting-engine:
+  - "*"
+server-tools:
+  - "*"
+server-ux:
+  - "*"
+web:
+  - "*"
