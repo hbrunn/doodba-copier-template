@@ -1,0 +1,26 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* mis_builder_oms
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-15 14:28+0000\n"
+"PO-Revision-Date: 2020-09-15 14:28+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: mis_builder_oms
+#: model:ir.model.fields,field_description:mis_builder_oms.field_mis_report_instance__ignore_partner_ids
+msgid "Ignore partners"
+msgstr "Partner ignorieren"
+
+#. module: mis_builder_oms
+#: model:ir.model.fields,field_description:mis_builder_oms.field_mis_report_instance__use_holding_accounts
+msgid "Use Holding Accounts"
+msgstr "Holdingkonten verwenden"
