@@ -21,6 +21,14 @@ mis-builder:
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
+operating-unit:
+  remotes:
+    origin: https://github.com/oca/operating-unit
+    hbrunn: https://github.com/hbrunn/operating-unit
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
+    - hbrunn ${ODOO_VERSION}-operating_unit_hierarchical
 reporting-engine:
   remotes:
     origin: https://github.com/OCA/reporting-engine.git

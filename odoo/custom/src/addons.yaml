@@ -1,5 +1,7 @@
 mis-builder:
   - "*"
+operating-unit:
+  - "*"
 reporting-engine:
   - "*"
 server-tools:
