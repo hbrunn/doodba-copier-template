@@ -15,6 +15,12 @@
     # Example of a merge of the PR with the number <PR>
 # the code private to OMS should go to odoo/custom/src/private in this repo,
 # this simplifies updates. Here we name external repos er want to use
+field-service:
+  remotes:
+    origin: https://github.com/OCA/field-service.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
 mis-builder:
   remotes:
     origin: https://github.com/OCA/mis-builder.git

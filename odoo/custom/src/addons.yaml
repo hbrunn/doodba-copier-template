@@ -1,3 +1,5 @@
+field-service:
+  - "*"
 mis-builder:
   - "*"
 operating-unit:
