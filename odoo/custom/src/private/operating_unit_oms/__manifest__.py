@@ -11,6 +11,7 @@
         "operating_unit_hierarchical",
         "sale_operating_unit",
         "analytic_operating_unit",
+        "mis_builder_operating_unit",
     ],
     "data": [
         "security/ir.model.access.csv",

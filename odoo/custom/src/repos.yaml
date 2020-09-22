@@ -29,6 +29,7 @@ operating-unit:
   merges:
     - origin $ODOO_VERSION
     - hbrunn ${ODOO_VERSION}-operating_unit_hierarchical
+    - hbrunn ${ODOO_VERSION}-mis_builder_operating_unit
 reporting-engine:
   remotes:
     origin: https://github.com/OCA/reporting-engine.git
